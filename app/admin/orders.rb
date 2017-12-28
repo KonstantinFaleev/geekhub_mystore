@@ -1,8 +1,8 @@
-ActiveAdmin.register Product do
+ActiveAdmin.register Order do
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
-permit_params :name, :description, :price, image_url: []
+# permit_params :list, :of, :attributes, :on, :model
 #
 # or
 #
@@ -11,7 +11,5 @@ permit_params :name, :description, :price, image_url: []
 #   permitted << :other if params[:action] == 'create' && current_user.admin?
 #   permitted
 # end
-
-
 
 end
